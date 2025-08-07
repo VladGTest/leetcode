@@ -18,7 +18,7 @@ class Solution(object):
                         double_matrix[i][j] = temp
                         arr_index+=1
                 n-=1    
-                
+            
                 
             
         
