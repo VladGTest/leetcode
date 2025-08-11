@@ -13,4 +13,4 @@ class Solution(object):
                 missing_num ^= nums[i]    
                 
         return missing_num
-        
+         
