@@ -22,7 +22,7 @@ class Solution {
                    break;
                 }
             }
-        
+         
             if (index == -1) continue;
             
             for(int j = 1; j < words[i].length(); j++) {
