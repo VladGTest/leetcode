@@ -20,7 +20,7 @@ class Solution {
       
         int[] result = new int[resultList.size()];
         for (int i = 0; i < resultList.size(); i++) {
-            result[i] = resultList.get(i + 1);
+            result[i] = resultList.get(i);
         }
         
         return result;
