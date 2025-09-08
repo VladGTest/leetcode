@@ -11,5 +11,4 @@ class Solution(object):
             if (nums[i] in map_array and i - map_array[nums[i]] <= k):
                 return True
             map_array[nums[i]] = i
-            
         return False
