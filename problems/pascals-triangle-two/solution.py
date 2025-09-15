@@ -10,4 +10,4 @@ class Solution(object):
                 row[j] += row[j - 1]
 
         return row
-        
+          
