@@ -6,17 +6,17 @@ class Solution {
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
         }
         
-        
+         
         List<Integer> resultList = new ArrayList<>();
         
-       
+        
         for (int num : nums2) {
             if (frequencyMap.containsKey(num) && frequencyMap.get(num) > 0) {
                 resultList.add(num);
                 frequencyMap.put(num, frequencyMap.get(num) - 1);
             }
         }
-        
+           
       
         int[] result = new int[resultList.size()];
         for (int i = 0; i < resultList.size(); i++) {
@@ -25,4 +25,4 @@ class Solution {
         
         return result;
     }
-}
+}  
