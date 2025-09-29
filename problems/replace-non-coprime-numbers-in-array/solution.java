@@ -17,7 +17,7 @@ class Solution {
                     stack.addLast(secondLast);
                     stack.addLast(last);
                     break;
-                }
+                }   
             }
         }
         return stack;
@@ -26,4 +26,4 @@ class Solution {
         if (b == 0) return a;
         return gcd(b, a % b);
     }
-}
+}   
