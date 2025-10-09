@@ -8,7 +8,7 @@ class Solution {
                 int secondLast = stack.pollLast();
                 int gcd = gcd(last, secondLast);
                 if (gcd > 1) {
-                    
+                     
                     long lcm = (long) last * secondLast / gcd;
                     
                     stack.addLast((int) lcm);
@@ -26,4 +26,4 @@ class Solution {
         if (b == 0) return a;
         return gcd(b, a % b);
     }
-}   
+}      
