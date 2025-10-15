@@ -7,4 +7,4 @@ class Solution(object):
         original = str(x)
         reversed = original[::-1]
         return original == reversed
-        
+           
