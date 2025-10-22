@@ -5,4 +5,4 @@ class Solution(object):
         :rtype: List[int]
         """
         return [i for i in range(1 - n, n, 2)]
-        
+           
