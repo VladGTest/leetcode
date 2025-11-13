@@ -12,4 +12,4 @@ class Solution(object):
                 total_beams += prev_devices * curr_devices
                 prev_devices = curr_devices
         return total_beams
-        
+           
